@@ -1,0 +1,157 @@
+$success:black;
+$dark:black;
+// $primary:black;
+
+.main{
+    color: white;
+}
+
+form{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+form:hover{
+    box-shadow: 3px 3px 3px black;
+}
+form label{
+    display: inline-block;
+  width: 120px;
+}
+form div{
+  margin: 15px;;
+}
+.formHead , .signForm{
+    margin-left: 40%;
+   margin-top: 5%;
+}
+
+b{
+    color: red;
+}
+#homeimg{
+    width: 60%
+}
+i{
+    color: rgb(222, 20, 165);
+}
+.navbar { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#cartinfo{
+    position: absolute;
+    left: 17%;
+    bottom: 65%;
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+}
+#cartlink{
+    position: absolute;
+    left: 18%; 
+    bottom: 63%;
+   
+}
+#homecart{
+     text-decoration: none;
+   position: absolute;
+   left: 90%;
+   bottom:30%;
+}
+#profile{
+
+    position: absolute;
+    left: 83%;
+}
+#end{
+    position: absolute;
+    left: 95%; 
+}
+#loginButton{
+
+    margin-left: 40%
+}
+
+#loginInfo{
+
+    margin-left:25%;
+}
+#loginSignup{
+text-decoration: none;
+    margin-left: 25%;
+
+}
+em{
+   color: white;
+}
+#item{
+    width: 100%;
+   
+}
+#caption{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#shopLink{
+  
+   text-decoration: none;
+   color: white;
+   background-color: black;
+   font-size: 2rem;
+   border: 2px solid black;
+   border-radius: 2%;
+}
+#formImg{
+    width: 10%;
+    position: absolute;
+    left: 1%;
+    top: 6%;
+
+}  
+
+.card{
+
+    margin: 1%;
+}
+
+#loginimg{
+    
+    width: 29%;
+    position: absolute;
+    left: 1%;
+    top: 30%;
+
+}
+
+#clothing{
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.maincard{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+   flex-wrap: wrap;
+   }
+   #card{
+    border: 2px solid black;
+   }
+#card:hover{
+    box-shadow: 4px 4px 4px black;
+}
+
+#shopeimgs{
+    display: inline;
+    width: 30%;
+}
+#cartbutton{
+    width: 8%;
+  
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
