@@ -1,3 +1,4 @@
+
 import React, {  useRef, useState } from "react";
 
 function SignUp() {
@@ -219,6 +220,8 @@ if(result==true){
         <a className="brn"  href="https://www.brninfotech.com/">2023 © BRN Infotech Pvt. Ltd.</a>
       </div>
     </div>
+
+
   )
 }
 
