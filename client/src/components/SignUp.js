@@ -1,7 +1,11 @@
 
 import React, {  useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function SignUp() {
+
+    let navigate = useNavigate()
+
     let [image, setimage] = useState("./images/dummy.jpg");
   let nameInputRef=useRef();
   let nameSpanRef=useRef();
@@ -207,7 +211,9 @@ if(result==true){
        <a href="https://docs.google.com/document/d/1UNc8jOJtjQJttCxogPfFQcXFl6gNm8iuOwiRfbkmXcw/edit">Terms of Service & Privacy Policy</a>
        </div>
        <div>
-       <button className="back">BACK</button>
+       <button className="back" onClick={()=>{
+            navigate("/");
+       }}>BACK</button>
        </div>
        <div>
        <button className="submit">SUBMIT</button>

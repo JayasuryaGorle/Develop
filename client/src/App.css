@@ -3911,7 +3911,7 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-<<<<<<< HEAD
+
 
 *{
   padding: 0;
@@ -3920,7 +3920,8 @@ textarea.form-control-lg {
 body
 {
 
-  background-color:#333333;
+  background-color:black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -12064,4 +12065,4 @@ span{
 }
 
 /*# sourceMappingURL=App.css.map */
->>>>>>> 6e244260b510779ba5575d8067212fec053d67f9
+
