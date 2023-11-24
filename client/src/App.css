@@ -3911,6 +3911,143 @@ textarea.form-control-lg {
   text-align: center;
 }
 
+<<<<<<< HEAD
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body
+{
+
+  background-color:#333333;
+}
+
+
+
+.App {
+  text-align: center;
+ 
+ 
+}
+form{
+  display: inline-block;
+  border: 1px solid white;
+  width: 35%;
+  height: 185vh;
+  background-color: #E8E8E8;
+}
+.sighHead{
+  color:teal;
+  font-size: xx-large;
+}
+p{
+  color:gray;
+  margin: 10px;
+}
+.signupInput ,select{
+  width:68%;
+  height:40px;
+  margin-top: 20px;
+   background-color:	#C0C0C0;
+   border: none; 
+   padding-left: 10px;
+}
+
+::placeholder {
+  padding-left: 30px;
+  font-size: medium;
+}
+.image{
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  border: 1px solid gray;
+}
+.file{
+  position: relative;
+  top: 30px;
+  left:-10px;
+  height: 50px;
+  
+}
+.option{
+  margin-left: 30px;
+}
+.para{
+  color:gray;
+  margin: 20px;
+  margin-left: -50px;
+
+}
+
+.checkBox{
+  margin-top: 30px;
+  margin-left: -180px;
+}
+.checkboxLabel{
+  color:gray;
+  position: relative;
+  top: -5px;
+  margin-left: 20px;
+
+
+}
+.inputChechbox{
+  zoom: 1.5;
+
+}
+a{
+  position: relative;
+  top: -28px;
+  left: 100px;
+
+  
+}
+.back{
+  width: 75px;
+  height: 30px;
+  background-color: whitesmoke;
+  position: relative;
+  left: -120px;
+  color: #333333;
+  margin-top: 20px;
+}
+.back:hover{
+  color: teal;
+}
+.submit{
+  width: 75px;
+  height: 30px;
+  background-color: teal;
+  color:white;
+  position: relative;
+  top: -30px;
+  left: 120px;
+
+}
+label{
+  color: red;
+}
+span{
+  width: 2px;
+ 
+  /* position: relative;
+  left: 10px; */
+}
+.brn{
+  position: relative;
+  top: 20px;
+  left: 10px;
+  text-decoration: none;
+  color: teal;
+
+}
+.brn:hover{
+  text-decoration:underline;
+}
+
+=======
 .nav-justified > .nav-link,
 .nav-justified .nav-item {
   flex-basis: 0;
@@ -11927,3 +12064,4 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=App.css.map */
+>>>>>>> 6e244260b510779ba5575d8067212fec053d67f9

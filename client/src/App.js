@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
     
+<<<<<<< HEAD
     <BrowserRouter>
      <Routes>
      <Route path='/' element={<About/>}></Route>
@@ -24,6 +25,9 @@ function App() {
       
      </Routes>
      </BrowserRouter>
+=======
+  <SignUp/>
+>>>>>>> 16750bc33c733d3099d226224e384511e6cb3cc1
   
 
     </div>
