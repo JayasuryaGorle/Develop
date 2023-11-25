@@ -4048,7 +4048,7 @@ span{
   text-decoration:underline;
 }
 
-=======
+
 .nav-justified > .nav-link,
 .nav-justified .nav-item {
   flex-basis: 0;
@@ -12062,6 +12062,137 @@ span{
   .d-print-none {
     display: none !important;
   }
+}
+
+
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: #333333;
+}
+
+form{
+  display: inline-block;
+  border: 1px solid wheat;
+  background-color: white;
+  width: 400px;
+  height: 50vh;
+}
+form div{
+  margin: 20px;
+}
+.sign{
+  font-size: xx-large;
+  color: aqua;
+}  
+#main{
+  width: 280px;
+  height: 40px;
+  border: 1px solid #c0c0c0;
+  outline: none;
+  background-color: #c0c0c0;
+}
+
+ .name{
+  padding-left: 18px;
+  font-size: 18px;
+} 
+
+.link{
+  font-size: 17px;
+  font-weight: 300;
+  position: relative;
+  bottom:90px;
+  left: 100px;
+  
+  
+}
+.login{
+  
+  color: whitesmoke;
+  position: relative;
+  right: 122px; 
+
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+.checkbox{
+  zoom: 1;
+}
+.check{
+  position: relative;
+  bottom: 50px;
+  right: 30px;
+}
+.account{
+  height: 50px;
+  width: 403px;
+  position: relative;
+  right: 21px;
+  bottom: 75px;
+  background-color: dimgray;
+  
+}
+.Sign{
+  text-decoration: none;
+  text-align: center;
+  color: beige;
+  position: relative;
+  top: 15px;
+}
+.brn{
+  position: relative;
+  bottom: 80px;
+  font-size: 0.8rem;
+  
+}
+a{
+
+  text-decoration: none;
+ color: lightcoral;
+}
+
+.brn1{
+  position: relative;
+  bottom: 40px;
+  font-size: 0.8rem;
+  
+}
+.Form1{
+
+  display: inline-block;
+  border: 1px solid wheat;
+  background-color: white;
+  width: 450px;
+  height: 42vh;
+
+}
+.submit{
+ 
+  font-size: 1.5rem;
+  position: relative;
+  left: 120px;
+  bottom: 2px;
+
+}
+
+#back{
+  
+  font-size: 0.3rem;
+   position: relative;
+  right: 125px;
+  bottom: 60px;
+ 
+}
+
+#password{
+  font-size: 1.5rem;
+  color: rgb(30 100 30);
 }
 
 /*# sourceMappingURL=App.css.map */
